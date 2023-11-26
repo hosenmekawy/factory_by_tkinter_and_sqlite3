@@ -1,0 +1,16 @@
+def __init__(self, root):
+        self.root = root
+        self.root.geometry('1920x1080')
+        self.root.title('project university')
+        self.root.configure(background=white)
+        self.root.resizable(True, True)
+
+
+
+
+
+
+
+root = Tk()
+oop = dashboard(root)
+root.mainloop()
